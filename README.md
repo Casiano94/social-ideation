@@ -1,16 +1,16 @@
 Social Ideation
 ===============
-Social Ideation is an application that connects [IdeaScale](http://www.ideascale.com) -- one of today's leading online 
-idea management platforms -- with the world's largest virtual space of participation and socialization, 
-[Facebook](http://www.Facebook.com), allowing people to participate on IdeaScale-based public consultations initiatives 
-from Facebook. 
+Social Ideation is an application that connects [IdeaScale](http://www.ideascale.com) -- one of today's leading online
+idea management platforms -- with the world's largest virtual space of participation and socialization,
+[Facebook](http://www.Facebook.com), allowing people to participate on IdeaScale-based public consultations initiatives
+from Facebook.
 
-More specifically, it enables users to **participate** (submit ideas, place comments) **on IdeaScale** initiatives **without 
-leaving facebook** and using *only* Facebook's native features: posts, hashtags, comments, and groups. At the same time, 
+More specifically, it enables users to **participate** (submit ideas, place comments) **on IdeaScale** initiatives **without
+leaving facebook** and using *only* Facebook's native features: posts, hashtags, comments, and groups. At the same time,
 the ideas and comments published on IdeaScale are automatically replicated on the Facebook group linked to the initiative.
 
-Social Ideation is a concrete effort toward bringing civic participation platforms, such as IdeaScale, closer to the 
-large and diverse community of Facebook users. Apart from reaching wider and larger sources of information, it aims at 
+Social Ideation is a concrete effort toward bringing civic participation platforms, such as IdeaScale, closer to the
+large and diverse community of Facebook users. Apart from reaching wider and larger sources of information, it aims at
 reducing as much as possible the participation barrier.
 
 Examples
@@ -26,12 +26,12 @@ comments) with Facebook elements (groups, hashtags, posts and comments).
 
 ![mapping_model](/figures_repo/mapping_scheme.png?raw=true "Mapping Model")
 
-As seen on the figure the proposed mapping model is based entirely on native elements of Facebook (posts, comments, 
-groups, and hashtags). Posts published on a Facebook group that is linked to an IdeaScale initiative and contain the 
-hashtag of one of the initiative's campaigns are mapped to ideas. Similarly, ideas submitted on an IdeaScale initiatives 
+As seen on the figure the proposed mapping model is based entirely on native elements of Facebook (posts, comments,
+groups, and hashtags). Posts published on a Facebook group that is linked to an IdeaScale initiative and contain the
+hashtag of one of the initiative's campaigns are mapped to ideas. Similarly, ideas submitted on an IdeaScale initiatives
 that is linked to a Facebook groups are mapped to posts published on the timeline of the group.
 
-As the figure also shows, the comments placed to Facebook posts mapped to ideas are taken and transformed into 
+As the figure also shows, the comments placed to Facebook posts mapped to ideas are taken and transformed into
 IdeaScale comments and comments published on IdeaScale ideas are mapped to Facebook comments.
 
 On Facebook, hashtags are used to identify initiatives' campaigns.
@@ -120,20 +120,20 @@ Getting started
 
 9. Create a new IdeaScale initiative (*Home->IdeaScale->Initiative->Add*)
 
-10. Update the URLs of the callbacks replacing the host part of the callback URLs with the URL where the app is installed 
+10. Update the URLs of the callbacks replacing the host part of the callback URLs with the URL where the app is installed
 (*Home->Connectors->URL Callbacks*)
 
-11. Update IdeaScale connector token (*Home->Connectors->IdeaScale*) The correct token should be located in the table 
+11. Update IdeaScale connector token (*Home->Connectors->IdeaScale*) The correct token should be located in the table
 authtoken_token (user_id = 1)
 
-12. Create a consultation platform choosing IdeaScale as the connector (*Home->App->Consultation platforms->Add*) 
+12. Create a consultation platform choosing IdeaScale as the connector (*Home->App->Consultation platforms->Add*)
 
-13. Import the consultation platform initiatives. Select the new consultation platform in *Home->App->Consultation Platforms* 
+13. Import the consultation platform initiatives. Select the new consultation platform in *Home->App->Consultation Platforms*
 and choose the option **'Get Initiatives'** from the **Action menu** located on the top of the list.
 
-14. Obtain Facebook OAuth token. Go to [Graph API Explorer](https://developers.facebook.com/tools/explorer/) and 
-in the application drop down select the app created in Step 4. Click Get Access Token; in permissions popup go to 
-extended permissions tab and select **publish_actions**. 
+14. Obtain Facebook OAuth token. Go to [Graph API Explorer](https://developers.facebook.com/tools/explorer/) and
+in the application drop down select the app created in Step 4. Click Get Access Token; in permissions popup go to
+extended permissions tab and select **publish_actions**.
 
 15. Create a social network app user, setting in the field access token the previously obtained access token
 (*Home->App->Social network app users->Add*)
@@ -141,7 +141,7 @@ extended permissions tab and select **publish_actions**.
 16. Create a social network app community (*Home->App->Social network app communities->Add*) and put the user created in
 Step 15 as the admin
 
-17. Create a social network app choosing Facebook as the connector, setting the **app id**, **app access token** and 
+17. Create a social network app choosing Facebook as the connector, setting the **app id**, **app access token** and
 **app secret** of the created Facebook App, and configuring the **community** as the community created before.
 (*Home->App->Social network apps->Add*)
 
@@ -169,10 +169,16 @@ Technologies
 Let me know
 -----------
 
-If you use social ideation, please [write me](mailto:jorgesaldivar@gmail.com) a short message with a link to your project. 
+If you use social ideation, please [write me](mailto:jorgesaldivar@gmail.com) a short message with a link to your project.
 It is not mandatory, but I will really appreciate it!
 
 Voz y Voto (Voice and Vote)
 As a citizen initiative and participation, the Voz y Voto project, makes it easier for ordinary citizens to participate actively in the projects, whether it is proposing ideas, commenting on projects prepared by others, voting for ideas that seems interesting, etc.
 It is a way of participation in some way more practical because is implemented in digital format and the access is very easy.
 Citizens are the ones who experience day by day the needs and changes that their city needs, and and with this platform, they can help these become satisfied.
+
+Participa en tu Educación
+-----------
+
+Participate in your education [Participa en tu Educación](http://www.participaentueducacion.org.py/app/v1) is an online participation space where citizens can ideate together solutions for educational issues of Paraguay. These are the points of our education that we seek to improve with your help: Education Infrastructure, Teacher Training, and School Attendance.
+It works through two participation channels, a[Facebook Group](https://www.facebook.com/groups/979065645541360) and a website on IdeaScale platform. In the background, the Social Ideation App keeps synchronized the content of both channels.
