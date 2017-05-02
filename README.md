@@ -171,3 +171,8 @@ Let me know
 
 If you use social ideation, please [write me](mailto:jorgesaldivar@gmail.com) a short message with a link to your project. 
 It is not mandatory, but I will really appreciate it!
+
+Voz y Voto (Voice and Vote)
+As a citizen initiative and participation, the Voz y Voto project, makes it easier for ordinary citizens to participate actively in the projects, whether it is proposing ideas, commenting on projects prepared by others, voting for ideas that seems interesting, etc.
+It is a way of participation in some way more practical because is implemented in digital format and the access is very easy.
+Citizens are the ones who experience day by day the needs and changes that their city needs, and and with this platform, they can help these become satisfied.
