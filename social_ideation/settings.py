@@ -13,7 +13,7 @@ CELERY_SEND_TASK_ERROR_EMAILS = True
 CELERYBEAT_SCHEDULE = {
     'sync-every-5-minutes': {
         'task': 'app.tasks.synchronize_content',
-        'schedule': timedelta(minutes=5)
+        'schedule': timedelta(minutes=2)
     },
 }
 
@@ -94,11 +94,11 @@ ADMINS = (
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': '',
-        'USER': '',
-        'PASSWORD': '',
+        'NAME': 'socialdb',
+        'USER': 'user_social',
+        'PASSWORD': '12345',
         'HOST': '127.0.0.1',
-        'PORT': '8889',
+        'PORT': '3306',
         'DEFAULT_CHARSET': 'utf-8'
     }
 }
